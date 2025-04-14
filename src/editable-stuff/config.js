@@ -6,30 +6,30 @@ const navBar = {
 // Main Body SECTION
 const mainBody = {
   gradientColors: "#4484ce, #1ad7c0, #ff9b11, #9b59b6, #ff7f7f, #ecf0f1",
-  firstName: "Hashir",
+  firstName: "Shigeo",
   middleName: "",
-  lastName: "Shoaib",
-  message: " Passionate about changing the world with technology. ",
+  lastName: "Kitamura",
+  message: "Data Engineer | Web Developer | Python | BigQuery | Ruby on Rails",
   icons: [
     {
       image: "fa-github",
-      url: "https://github.com/hashirshoaeb",
+      url: "https://github.com/shigeokitamura",
     },
     {
       image: "fa-facebook",
-      url: "https://www.facebook.com/hashirshoaeb",
+      url: "https://www.facebook.com/shigeo.kitamura/",
     },
     {
       image: "fa-instagram",
-      url: "https://www.instagram.com/hashirshoaeb/",
+      url: "https://www.instagram.com/kitamurashigeo/",
     },
     {
       image: "fa-linkedin",
-      url: "https://www.linkedin.com/in/hashirshoaeb/",
+      url: "https://www.linkedin.com/in/shigeo-kitamura-85b0a1123/.",
     },
     {
       image: "fa-twitter",
-      url: "https://www.twitter.com/hashirshoaeb/",
+      url: "https://x.com/shigeo9462",
     },
   ],
 };
@@ -51,11 +51,11 @@ const mainBody = {
 const about = {
   show: true,
   heading: "About Me",
-  imageLink: require("../editable-stuff/hashirshoaeb.png"),
+  imageLink: require("../editable-stuff/shigeokitamura.jpg"),
   imageSize: 375,
   message:
-    "My name is Hashir Shoaib. I’m a graduate of 2020 from National University of Sciences and Technology at Islamabad with a degree in Computer Engineering. I'm most passionate about giving back to the community, and my goal is to pursue this passion within the field of software engineering. In my free time I like working on open source projects.",
-  resume: "https://docs.google.com/document/d/13_PWdhThMr6roxb-UFiJj4YAFOj8e_bv3Vx9UHQdyBQ/edit?usp=sharing",
+    "My name is Shigeo Kitamura. I am an experienced Data Engineer and Software Developer with over 5 years of expertise in building robust data pipelines and web applications. Proficient in Python, Ruby, and various big data technologies, with a strong background in cloud platforms, particularly Google Cloud. Demonstrates a blend of technical knowledge and educational experience, having worked as a part-time lecturer. Currently expanding knowledge in Data Science, showcasing a commitment to continuous learning and adaptability in the ever-evolving tech landscape.",
+  resume: "https://github.com/shigeokitamura/shigeokitamura/blob/main/Shigeo_Kitamura_Resume.pdf",
 };
 
 // PROJECTS SECTION
@@ -66,9 +66,9 @@ const about = {
 const repos = {
   show: true,
   heading: "Recent Projects",
-  gitHubUsername: "hashirshoaeb", //i.e."johnDoe12Gh"
-  reposLength: 4,
-  specificRepos: [],
+  gitHubUsername: "shigeokitamura", //i.e."johnDoe12Gh"
+  reposLength: 0,
+  specificRepos: ["financial_tracker", "horse-racing-prediction-airflow", "kaggle_NCAA_2025", "books-to-scrape"],
 };
 
 // Leadership SECTION
@@ -100,14 +100,14 @@ const skills = {
   show: true,
   heading: "Skills",
   hardSkills: [
-    { name: "Python", value: 90 },
-    { name: "SQL", value: 75 },
-    { name: "Data Structures", value: 85 },
-    { name: "C/C++", value: 65 },
-    { name: "JavaScript", value: 90 },
-    { name: "React", value: 65 },
-    { name: "HTML/CSS", value: 55 },
-    { name: "C#", value: 80 },
+    { name: "Ruby", value: 90 },
+    { name: "Javascript / Typescript", value: 80 },
+    { name: "Python", value: 75 },
+    { name: "SQL / HQL", value: 85 },
+    { name: "Rails", value: 90 },
+    { name: "React", value: 80 },
+    { name: "Airflow", value: 80 },
+    { name: "PySPark", value: 75 },
   ],
   softSkills: [
     { name: "Goal-Oriented", value: 80 },
@@ -126,8 +126,8 @@ const getInTouch = {
   show: true,
   heading: "Get In Touch",
   message:
-    "I'm currently looking for full-time Software Engineering or Machine Learning opportunities! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
-  email: "hashirshoaeb@gmail.com",
+    "I'm currently looking for full-time Web Developing or Data Engineering / Data Science opportunities in Canada! I have an open work permit and can move anywhere. If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
+  email: "shigeo.kitamura.work@gmail.com",
 };
 
 const experiences = {
